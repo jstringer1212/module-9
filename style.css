@@ -1,0 +1,97 @@
+header{ 
+        margin-bottom: 25%;
+        float: center;
+        text-align: center;
+        color: blueviolet;
+}
+ul{ position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 150%;
+    background-color: rgba(128, 0, 128, 0);
+    color: chartreuse;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited {
+    width: 150px;
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+div.R{ 
+    text-align: right;
+    border: 2px solid;
+    float: left;
+    width: 32%;
+    height: 150px;
+    margin: 1px;
+    background-color: blue;
+    align-content: last baseline;
+}
+
+div.L{
+    text-align: left;
+    align-content: last baseline;
+    border: 2px solid;
+    float: left;
+    width: 32%;
+    height: 150px;
+    margin: 1px;
+    background-color: red;
+}
+div.C{
+    align-content: center;
+    text-align: center;
+    float: left;
+    border: 2px solid;
+    width: 33%;
+    height: 150px;
+}
+
+h1.HC{
+    text-align: center;
+}
+
+h1.HL{
+    text-align: left;
+}
+
+h1.HR{ 
+    text-align: right;
+}
+
+section{
+    width: 100%;
+    height: 200px;
+    margin-top: 4px;
+    border: 3px solid;
+    border-color: chartreuse;
+    text-align: center;
+}
+div.middiv{
+    border: 2px solid;
+    text-align: center;
+}
+
+/* all paragraph text center aligned */
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+div.under{
+    text-align: center;
+    width: 480px; 
+    height: 480px;
+}
